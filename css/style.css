@@ -1,9 +1,6 @@
 .header, .footer{
     background: #26292e;
 }
-.header{
-    height: 70px;
-}
 .header h1{
     color: white;
     font-family: 'Sacramento', cursive;
@@ -61,7 +58,7 @@
     border-top: solid 2px grey;
 }
 .icons ul{
-    padding: 16px;
+    padding: 0px;
 }
 .icons li{
     font-size: 25px;
@@ -71,7 +68,14 @@
     height: 35px;
     border-radius: 50%;
     padding: 2px 0px 2px 7px;
-    float: right;
+    margin-right: 20px;
+}
+.icons2 li{
+    font-size: 25px;
+    display: inline-block;
+    background: white;
+    border-radius: 50%;
+    padding: 2px 0px 2px 7px;
     margin-right: 20px;
 }
 @media(max-width:767px){
@@ -79,3 +83,4 @@
         margin-top:-65px;
     }
 }
+
