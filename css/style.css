@@ -1,4 +1,4 @@
-.header, .footer{
+ .header, .footer{
     background: #26292e;
 }
 .header h1{
@@ -57,9 +57,7 @@
     color: white;
     border-top: solid 2px grey;
 }
-.icons ul{
-    padding: 0px;
-}
+
 .icons li{
     font-size: 25px;
     display: inline-block;
@@ -78,9 +76,13 @@
     padding: 2px 0px 2px 7px;
     margin-right: 20px;
 }
-@media(max-width:767px){
-    .icons ul{
+@media(max-width:1000px){
+    .icons li{
         margin-top:-65px;
     }
 }
-
+@media(max-width:1000px){
+    .icons2 li{
+        margin-top:-65px;
+    }
+}
